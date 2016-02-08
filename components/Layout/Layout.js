@@ -10,7 +10,7 @@ import Navigation from '../Navigation';
 
 function Layout({ children }) {
   return (
-    <div className="Layout">
+    <div className="layout">
       <Navigation />
       {children}
     </div>

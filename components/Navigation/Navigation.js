@@ -10,12 +10,12 @@ import Link from '../Link';
 
 function Navigation() {
   return (
-    <ul className="Navigation" role="menu">
-      <li className="Navigation-item">
-        <a className="Navigation-link" href="/" onClick={Link.handleClick}>Home</a>
+    <ul className="navigation" role="menu">
+      <li className="navigation-item">
+        <a className="navigation-link" href="/" onClick={Link.handleClick}>Home</a>
       </li>
-      <li className="Navigation-item">
-        <a className="Navigation-link" href="/about" onClick={Link.handleClick}>About</a>
+      <li className="navigation-item">
+        <a className="navigation-link" href="/about" onClick={Link.handleClick}>About</a>
       </li>
     </ul>
   );
