@@ -54,8 +54,8 @@ Just clone the repo, install Node.js modules and run `npm start`:
 
 ```
 $ git clone -o react-static-boilerplate -b master --single-branch \
-      https://github.com/koistya/react-static-boilerplate.git MyApp
-$ cd MyApp
+      https://github.com/jhash/react-static-boilerplate.git build
+$ cd build
 $ npm install
 $ npm start
 ```
@@ -79,7 +79,7 @@ $ npm run deploy                # Deploys the project to GitHub Pages
 Alternatively, you can build a production release to manually deploy to S3, Firebase, Netlify, and other static hosts. Simply run the command below and copy the generated `build` folder to your static host.
 
 ```shell
-$ npm run build release         # Build production release 
+$ npm run build release         # Build production release
 ```
 
 ### How to Update
